@@ -11,7 +11,7 @@ export default function NewIncident(){
 
     const [title, setTitle] = useState('');
     const [description, setDescription] = useState('');
-    const [value, setValue] = useState(0);
+    const [value, setValue] = useState('');
 
     const ongId = localStorage.getItem('ongId');
     const history = useHistory();
